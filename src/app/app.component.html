@@ -1,0 +1,17 @@
+<div class="w-100 d-flex justify-content-center text-white h-auto">
+  <div class="box m-5 p-5 w-auto bg-opacity-75 bg-dark">
+    <div class="d-flex flex-column align-items-center justify-content-between ">
+      <img class="rounded-circle profile-image" src="../assets/images/avatar-jessica.jpeg">
+      <h1> Name Surname</h1>
+      <h3><span> Place </span></h3>
+    </div>
+    <p>"Lorem ipsum dolor sit amet consectetur adipisicing"</p>
+    <hr>
+    @for (social of socials; track social.id) {
+    <a class="btn btn-lab pointer-event" href="{{social.baseLink}}">
+      {{social.name}}
+    </a>
+    }
+  </div>
+</div>
+<router-outlet></router-outlet>

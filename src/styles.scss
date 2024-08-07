@@ -1,0 +1,35 @@
+/* You can add global styles to this file, and also import other style files */
+
+@import "./bootstrap.min.css";
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  background-color: black;
+}
+
+* {
+  font-family: Inter;
+}
+
+@font-face {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  src: local(""),
+    url("./assets/fonts/static/Inter-Regular.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Inter-Bold";
+  font-style: normal;
+  font-weight: 700;
+  src: local(""), url("./assets/fonts/static/Inter-Bold.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Inter-S-Bold";
+  font-style: normal;
+  font-weight: 900;
+  src: local(""),
+    url("./assets/fonts/static/Inter-SemiBold.ttf") format("truetype");
+}
